@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large datasets and generated results
+/data/raw/
+/data/interim/
+/data/processed/
+/ml/models/
+/ml/data/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
